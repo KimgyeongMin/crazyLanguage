@@ -30,14 +30,15 @@ Crazy Language는 단순함이 아름답다는 철학을 가지고 만든 난해
 Crazy Language는 2개의 Tap를 가지고 있습니다. 
 
 Data Tap는 무한히 늘어나는 형태로 자료를 담습니다.
-Function Tap는 `+` `-` `loop Start` `loop End` `input` `print` `ASCII print` 순서로 7개의 기능을 가지며, 시작시 포인터의 위치는 `+` 를 가리킵니다.
+Function Tap는 
+`+` `-` `loop Start` `loop End` `input` `print` `ASCII print` 
+순서로 7개의 기능을 가지며, 시작시 포인터의 위치는 `+` 를 가리킵니다.
 
 ### Demo
 
 
-* 숫자 1을 출력합니다.
-
-C
+숫자 1을 출력합니다.
+*C
 ```C
 #include <stdio.h>
 
@@ -46,15 +47,12 @@ int main()
    printf("1");
 }
 ```
-Crazy Language
+*Crazy Language
 ```json
 /.>>>>>.
 ```
-
-
-* 문자 A를 출력합니다.
-
-C
+문자 A를 출력합니다.
+*C
 ```C
 #include <stdio.h>
 
@@ -63,15 +61,14 @@ int main()
    printf("a");
 }
 ```
-Crazy Language
+*Crazy Language
 ```json
 /.................................................................>>>>>>.
 ```
 
 
-* 1부터 10까지 숫자를 출력합니다.
-
-C
+1부터 10까지 숫자를 출력합니다.
+*C
 ```C
 #include <stdio.h>
 
@@ -81,15 +78,14 @@ int main()
 	printf("%d\n",i);
 }
 ```
-Crazy Language
+*Crazy Language
 ```json
 </............./>>/..........>>.<./</<.<<./</>./>>/<<<.
 ```
 
 
-* 두 수를 입력 받아 C 로 짜여진 구구단을 Crazy Language로 표현합니다.
-
-C
+두 수를 입력 받아 C 로 짜여진 구구단을 Crazy Language로 표현합니다.
+*C
 ```C
 #include <stdio.h>
 
@@ -103,7 +99,7 @@ int main(void)
         printf("%d*%d=%d\n", val, i, val*i);
 }
 ```
-Crazy Language
+*Crazy Language
 ```json
 <<<<<<<<<<<<<<<<<<<<</...............................................
 ............................../>/....................................
