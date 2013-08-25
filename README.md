@@ -1,6 +1,3 @@
-crazyLanguage
-=============
-
 ## Introduction
 
 Crazy Language는 단순함이 아름답다는 철학을 가지고 만든 난해한 언어입니다.
@@ -16,65 +13,78 @@ Crazy Language는 단순함이 아름답다는 철학을 가지고 만든 난해
 * 7개의 연산자만을 사용합니다.
 * 디버깅 기능을 제공합니다.
 * 연산자를 제외한 나머지 숫자는 모두 무시됩니다.
-
-## 구동환경
-
-* Windows: Microsoft .netfreamwork 4.0
+* Windows 기반입니다.
 
 ## Quick Start
 
 ### 문법
 
-* '>' : 포인터의 위치 증가 (++*ptr);
+* `>` : 포인터의 위치 증가 (++*ptr);
 
-* '<' : 포인터의 위치 감소(--*ptr);
+* `<` : 포인터의 위치 감소(--*ptr);
 
-* '.' : Function Tap에서 포인터가 가르킨 기능 실행;
+* `.` : Function Tap에서 포인터가 가르킨 기능 실행;
 
-* '/' : Tap간 이동;
-
+* `/` : Tap간 이동;
+ 
 Crazy Language는 2개의 Tap를 가지고 있습니다. 
 
 Data Tap는 무한히 늘어나는 형태로 자료를 담습니다.
-Function Tap는 '+' '-' 'loop Start' 'loop End' 'input' 'print' 'ASCII print' 순서로 7개의 기능을 가지며, 시작시 포인터의 위치는 '+' 를 가리킵니다.
+Function Tap는 `+` `-` `loop Start` `loop End` `input` `print` `ASCII print` 순서로 7개의 기능을 가지며, 시작시 포인터의 위치는 `+` 를 가리킵니다.
 
 ### Demo
 
-숫자 1을 출력합니다.
 
+* 숫자 1을 출력합니다.
 
-'''C
+```C
 #include <stdio.h>
 
 int main()
 {
    printf("1");
 }
-'''
+```
 
-'''json
+```json
 /.>>>>>.
-'''
+```
 
-문자 A를 출력합니다.
 
-'''C
+* 문자 A를 출력합니다.
+
+```C
 #include <stdio.h>
 
 int main()
 {
    printf("a");
 }
-'''
+```
 
-'''json
+```json
 /.................................................................>>>>>>.
-'''
+```
 
-두 수를 입력 받아 
 
-C 로 짜여진 구구단을 Crazy Language로 표현합니다.
+* 1부터 10까지 숫자를 출력합니다.
 
+```C
+#include <stdio.h>
+
+int main()
+{
+   for(int i=1; i>=10; i++)
+	printf("%d\n",i);
+}
+```
+
+```json
+</............./>>/..........>>.<./</<.<<./</>./>>/<<<.
+```
+
+
+* 두 수를 입력 받아 C 로 짜여진 구구단을 Crazy Language로 표현합니다.
 
 ```C
 #include <stdio.h>
