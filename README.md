@@ -49,12 +49,13 @@ int main()
    printf("1");
 }
 ```
-** Crazy Language
-
+Crazy Language
 ```json
 /.>>>>>.
 ```
-문자 A를 출력합니다.
+
+
+* 문자 A를 출력합니다.
 
 ```C
 #include <stdio.h>
@@ -64,14 +65,13 @@ int main()
    printf("a");
 }
 ```
-* Crazy Language
-
+Crazy Language
 ```json
 /.................................................................>>>>>>.
 ```
 
 
-1부터 10까지 숫자를 출력합니다.
+*1부터 10까지 숫자를 출력합니다.
 
 ```C
 #include <stdio.h>
@@ -82,14 +82,13 @@ int main()
 	printf("%d\n",i);
 }
 ```
-* Crazy Language
-
+Crazy Language
 ```json
 </............./>>/..........>>.<./</<.<<./</>./>>/<<<.
 ```
 
 
-두 수를 입력 받아 C 로 짜여진 구구단을 Crazy Language로 표현합니다.
+* 두 수를 입력 받아 C 로 짜여진 구구단을 Crazy Language로 표현합니다.
 
 ```C
 #include <stdio.h>
@@ -104,8 +103,7 @@ int main(void)
         printf("%d*%d=%d\n", val, i, val*i);
 }
 ```
-* Crazy Language
-
+Crazy Language
 ```json
 <<<<<<<<<<<<<<<<<<<<</...............................................
 ............................../>/....................................
