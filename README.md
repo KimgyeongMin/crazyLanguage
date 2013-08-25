@@ -39,7 +39,7 @@ Function Tap는
 ### Demo
 
 
-숫자 1을 출력합니다.
+* 숫자 1을 출력합니다.
 
 ```C
 #include <stdio.h>
@@ -49,7 +49,7 @@ int main()
    printf("1");
 }
 ```
-* Crazy Language
+** Crazy Language
 
 ```json
 /.>>>>>.
