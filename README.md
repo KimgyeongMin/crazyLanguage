@@ -17,7 +17,7 @@ Crazy Language는 단순함이 아름답다는 철학을 가지고 만든 난해
 
 ## Quick Start
 
-### 문법
+### Syntax
 
 * `>` : 포인터의 위치 증가 (++*ptr);
 
