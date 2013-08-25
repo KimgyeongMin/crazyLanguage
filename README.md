@@ -71,7 +71,7 @@ Crazy Language
 ```
 
 
-*1부터 10까지 숫자를 출력합니다.
+* 1부터 10까지 숫자를 출력합니다.
 
 ```C
 #include <stdio.h>
